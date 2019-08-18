@@ -1,0 +1,24 @@
+{
+  "name": "terraform-aws-iam-system-user",
+  "version": "0.6.0",
+  "description": "Terraform Module to Provision a Basic IAM System User Suitable for CI/CD Systems (E.g. TravisCI, CircleCI)",
+  "main": "main.tf",
+  "directories": {
+    "doc": "docs",
+    "example": "examples",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pgalchemy/terraform-aws-iam-system-user.git"
+  },
+  "author": "Jeremiah Harlan <jeremiah.harlan@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pgalchemy/terraform-aws-iam-system-user/issues"
+  },
+  "homepage": "https://github.com/pgalchemy/terraform-aws-iam-system-user#readme"
+}
