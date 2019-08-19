@@ -45,8 +45,8 @@ variable "path" {
   default     = "/"
 }
 
-variable "enabled" {
+variable "create_keys" {
   type        = bool
-  description = "Set to false to prevent the module from creating any resources"
-  default     = true
+  description = "Set to true to create AWS Key ID and Secret"
+  default     = false
 }
