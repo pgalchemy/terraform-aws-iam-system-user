@@ -1,6 +1,6 @@
 {
   "name": "terraform-aws-iam-system-user",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "Terraform Module to Provision a Basic IAM System User Suitable for CI/CD Systems (E.g. TravisCI, CircleCI)",
   "main": "main.tf",
   "directories": {
